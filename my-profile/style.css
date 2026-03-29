@@ -1,0 +1,51 @@
+/* Styles généraux du corps de la page */
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  font-family: 'serif;', serif;
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* Conteneur pour centrer le contenu */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* Style des "cartes blanches" */
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Rendre l'image ronde */
+.img-circle {
+  border-radius: 100%;
+}
+
+/* Liste de réseaux sociaux horizontale */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+/* Style des liens et effet de survol */
+a {
+  color: #4B69EE;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2E47B8;
+}
